@@ -3,7 +3,7 @@
 # Lo ideal es declara e inicializar siempre las variables.
 # -----------------------------------------------------------
 
-# Declaración de variable numérica entera:
+# Declaración de variable numérica entera: 
 n_edad = 47
 
 # Declaración de variable numérica de coma flotante:
@@ -34,7 +34,7 @@ False == 0
 print(True + 2)
 
 # Cuando se valida una condición , Python devuelve True o False:
-print(10 > 9)
+print(10 > 9 "")
 print(10 == 9)
 print(10 < 9)
 
