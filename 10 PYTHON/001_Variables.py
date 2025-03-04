@@ -34,9 +34,9 @@ False == 0
 print(True + 2)
 
 # Cuando se valida una condición , Python devuelve True o False:
-print(10 > 9 "")
+print(10 > 9)
 print(10 == 9)
-print(10 < 9)
+print(10 < 9, "\n")
 
 # Declaración múltiple
 # En una sola instrucción, estamos declarando tres variables: a, b y c, y asignándoles un valor concreto a cada una.

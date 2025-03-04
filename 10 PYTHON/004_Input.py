@@ -1,4 +1,4 @@
-s_nombreIntroducido = input("Introduzca su nombre: ")
+s_nombreIntroducido = input("Introduce tu nombre: ")
 
 print("Bienvenido", s_nombreIntroducido)
 
@@ -8,6 +8,6 @@ print("Bienvenido", s_nombreIntroducido)
 por lo que, si necesitamos operar matemáticamente con números, tendremos que hacer un casting: 
 """
 
-s_edad = int(input("Introduzca su edad: "))
+s_edad = int(input("Introduce tu edad: "))
 
-print("El año que viene tendrá usted ", s_edad + 1, "años")
+print("El año que viene tu tendras ", s_edad + 1, "años")
