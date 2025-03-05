@@ -7,10 +7,14 @@
 
 calificacion = float(input("Ingresa tu calificación (0-100): "))
 if calificacion >= 90:
-    print("Excelente")
+    calificacion = "aprovado"
+    print("Tu promedio a sido: ", calificacion.capitalize())
 elif calificacion >= 70:
-    print("Bueno")
+    calificacion = "Bueno"
+    print("Tu promedio a sido: ", calificacion.capitalize())
 elif calificacion >= 50:
-    print("Suficiente")
+    calificacion = "suficiente"
+    print("Tu calificacion a sido: ", calificacion.capitalize())
 else:
-    print("Insuficiente")
+    calificacion = "insuficiente"
+    print("Tu calificacion a sido: ", calificacion.capitalize())

@@ -4,10 +4,11 @@
 
 notaIn=int(input("Introduzca nota:"))
 
-if notaIn<5:
-    calificacion="Suspenso"
-else: calificacion="Aprobado"
-
+if notaIn < 5:
+    calificacion = "Suspenso"
+else: 
+	calificacion = "Aprobado"
+	
 print(calificacion)
 
 # IF no sólo evalúa un boleano, también si una variable contiene información

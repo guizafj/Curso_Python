@@ -56,3 +56,10 @@ print(type(s_nombre))
 print(type(NUMEROPI))
 print(type(is_verdadero))
 print(type(is_casado))
+
+s_nombre_usuario = input("Intorduce tu nombre: ")
+
+print("Bienvenido", s_nombre_usuario)
+
+n_edad = int(input("Introduce tu edad: "))
+print(s_nombre_usuario.capitalize(), "el proximo año tendras: ", n_edad + 1, "años")
