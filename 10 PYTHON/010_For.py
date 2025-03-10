@@ -15,17 +15,19 @@ for i in ["primavera", "verano", "otoño", "invierno"]:
  
 #   Repite el print tantas veces como caracteres hay en el string 
 
-#   Evaluamos si un mail contiene el caracter @
-
 for i in "frase":		
 	print("Hola", end=" ")
  
+#   Evaluamos si un mail contiene el caracter @ crear una validación en 2 pasos para el mail
+
 miEmail=input("Introduce email")
-email=False
+email = False
 for i in miEmail:
     if i=="@":
         email=True
-if email==True:        #Se puede simplificar    if email:
+
+# Se utiliza la expresion simplificada if email: que es lo mismo que if email == True: 
+if email:        # De esta forma se evita la redundancia
     print("El email es correcto")
 else:
     print("EL mail no es correcto")

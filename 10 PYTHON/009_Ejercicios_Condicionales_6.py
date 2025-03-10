@@ -6,6 +6,7 @@
 # Adolescente: De 13 a 19 años.
 # Adulto: De 20 a 64 años.
 # Adulto mayor: 65 años o más.
+# Se emplean condicionales anidados 
 
 edad = int(input("Introduce tu edad: "))
 if edad < 13:

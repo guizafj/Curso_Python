@@ -3,6 +3,9 @@
 # Un almacén da un descuento del 15% si la compra del cliente supera los 1000 Euros. 
 # Escribe un programa que pida el total de la compra y calcule el descuento 
 # (si aplica) y el total a pagar.
+#Optimizar y agregar condicionales, para verificar que no ponga valores negativos, valores vacios
+#que sean numeros, que no sea 0, volver a preguntar, hacer un bucle 
+# Isnotanumber
 
 # Solicita al usuario que ingrese el total de la compra
 total_compra = float(input("Ingresa el total de la compra: $"))

@@ -3,6 +3,8 @@
 # Escribe un programa que pida al usuario un número del 1 al 7 y muestre el día 
 # de la semana correspondiente. Si el número no está en ese rango, debe 
 # indicar que el número es inválido.
+# crear un bucle para que se le informe al usuario todas las fallas de datos introducidos
+# Enfocar el codigo para que sea entendible pensando en que el usuario seria un "niño"
 
 numero = int(input("Ingresa un número del 1 al 7: "))
 if numero == 1:
