@@ -26,6 +26,7 @@ peliculas = {"Love Actually": "Richard Curtis",
 "Amélie": "Jean-Pierre Jeunet"}
 
 peliculas["Love Actually"] 
+peliculas["Kill Bill"]
 
 # Reasignar valores a un diccionario
 
@@ -36,6 +37,7 @@ print(peliculas)
 
 miDiccionario3={"nombre":"Jordan", "Equipo":"Bulls", "Anillos":[1991, 1992, 1993, 1996, 1997, 1998]}
 print(miDiccionario3["Anillos"])
+print(miDiccionario3["nombre"], "Obtuvo anillos en los años: ", miDiccionario3["Anillos"])
 
 #   Quitar valores de un diccionario
 
