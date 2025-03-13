@@ -35,3 +35,11 @@ frutas = ["Manzana", "banana", "cereza"]
 
 miFunccion(frutas)
 
+la = [1, 2, 3, 4, 5]
+lb = list('abcde')
+lc = list('ABCDE')
+
+zlist = list(zip(la, lb, lc)) # soporta cualquier número # zip # de argumentos posicionales zlist
+a, b, c = zip(*zlist) # El * en zip desempaqueta lista de tuplas
+print(la, lb, lc, sep = '\n') # Seperador por defecto es espacio
+print(la, lb) 

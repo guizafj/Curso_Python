@@ -4,7 +4,7 @@
 #   -------------------------------------
 
 #   Definición de una función. Importante la identación:
-def my_funcion():
+def my_funcion(): # sintaxis basica de la declaración de una función
       print("Estamos ejecutando la función.")
 
 #   Llamada a la función. En otra parte de mi código, llamamos a la función para que se ejecute:
@@ -12,26 +12,22 @@ def my_funcion():
 my_funcion()
 
 #   -------------------------------------
+num1 = int(input())
+num2 = int(input())
 
+def suma(num1, num2):    
+    print("\n","suma =", num1 + num2)
 
-def suma():
-    num1 = 3
-    num2 = 5
-    print("suma =", num1+num2)
-
-suma()
+suma(num1 = int(input("ingresa el valor inicial: ")), num2 = int(input("ingresa el siguiente valor: ")))
 
 # Otra opción:
 def suma():
-      num1 = 3
-      num2 = 5
+      num1 = float(input("ingresa el valor inicial: "))
+      num2 = float(input("ingresa el valor adicional: "))
       resultado = num1 + num2
       return resultado
 
-
-
-
-print(suma())
+print("El resultado es: ", suma())
 
 #   -------------------------------------
 #El bloque de código que ejecutará la función incluye todas las declaraciones con indentación 
@@ -243,7 +239,7 @@ def sumar(a:int = 0, b:int = 0) -> int:
 #def sumar(a = 0, b = 0):
     return a + b
 
-    resultado = sumar()
+resultado = sumar()
 #print(f'Resultado sumar: {resultado}')
 print(f'Resultado sumar: {sumar(45, 654)}')
 #uanque le hemos dicho el tipo de los parámetros no estamos obligados a cumplirlo.
@@ -391,11 +387,6 @@ resultado = fahrenheit_celsius(fahrenheit)
 print(f'{fahrenheit} F a C: {resultado:0.2f}')
 
 
-
-
-
-
-
-
 def suma(num1, num2):
     print("suma= ", num1+num2)
+
