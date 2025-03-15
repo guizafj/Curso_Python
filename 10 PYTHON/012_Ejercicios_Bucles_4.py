@@ -12,4 +12,10 @@ for i in range(1, 11):
     print(f"{numero} x {i} = {resultado}")
 
 
+# programa que compara los valores de dos listas, mostrando el valor maximo en cada comparación
+lista_1a = [10, 20, 30, 40]
+lista_1b = [5, 25, 50, 10]
 
+for a,b in zip(lista_1a, lista_1b):
+    m = max(a,b) # al utilizar la expresión max: esta devuelve el valor maximo entre a y b
+    print(m, end = ' ')

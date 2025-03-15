@@ -205,10 +205,14 @@ print(f'Resultado sumar: {sumar(5,3)}')
 
 # ---------------------------
 # función con múltiples parámetros con una sentencia de retorno
-def multiplica(val1, val2):
-  return val1 * val2
+numer_1 = int(input("ingresa el primer: "))
+numer_2 = int(input("Ingresa otro valor: "))
 
-multiplica(3, 5)  # muestra 15 en la consola
+def multiplica(val1, val2):
+    resultado = val1 * val2
+    return resultado
+
+multiplica(numer_1, numer_2)  # muestra 15 en la consola
 
 #---------------------------------------
 

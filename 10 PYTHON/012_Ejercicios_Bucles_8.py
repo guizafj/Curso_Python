@@ -10,7 +10,3 @@ while numero != 5:
     numero = int(input("Introduce un número (5 para detener): "))
 print("¡Número 5 encontrado!")
 
-
-
-
-

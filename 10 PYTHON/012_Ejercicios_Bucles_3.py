@@ -13,5 +13,6 @@ for caracter in texto:
 print(f"La letra 'a' aparece {contador} veces en la palabra {texto}.")
 
 
-
+for s in ['Me', 'Gusta', 'Python!']:
+    print(s, end=' ')
 

@@ -24,4 +24,24 @@ while b > 1:
 
 print ('\nFuera del Bucle.')
 
+a = 5
+
+while a:   
+    print(a, end=' ')
+    if a == 2: # Se usa 'if' en lugar de una comparación suelta
+        break
+    a -=1 # Se reduce a para evitar un bucle infinito
+
+print('\n fuera del bucle')
+print(f"valor de a: {a}")
+
+nl_b = 7
+
+while bool(nl_b):
+    nl_b -= 1
+    if nl_b % 2 == 0: # se verifican los numeros pares 
+        continue # se evitan los numeros pares segun la sentencia del if
+    print(nl_b, end= ' ')
+
+print("fuera del bucle")
 
