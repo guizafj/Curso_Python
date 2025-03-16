@@ -174,5 +174,5 @@ myfamily = {
 }
 
 print(myfamily["child1"])
-
+print(myfamily)
 

@@ -39,6 +39,14 @@ def crear_lista():
 crear_lista() # Llamamos a la función antes de guardar
 print(lista_1)
 
+li_1 = lista_1.__iter__()
+li_1.__next__()
+next(li_1)
+next(li_1)
+
+li_2 = iter(lista_1)
+next(li_2)
+
 def guardar():
     guardar = input("deseas guardar la lista: (si) o (no)").lower() 
 

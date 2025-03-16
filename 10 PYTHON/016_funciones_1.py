@@ -5,7 +5,7 @@
 
 #   Definición de una función. Importante la identación:
 def my_funcion():
-      print("Estamos ejecutando la función.")
+    print("Estamos ejecutando la función.")
 
 #   Llamada a la función. En otra parte de mi código, llamamos a la función para que se ejecute:
 
@@ -27,9 +27,6 @@ def suma():
       num2 = 5
       resultado = num1 + num2
       return resultado
-
-
-
 
 print(suma())
 
@@ -243,7 +240,7 @@ def sumar(a:int = 0, b:int = 0) -> int:
 #def sumar(a = 0, b = 0):
     return a + b
 
-    resultado = sumar()
+resultado = sumar()
 #print(f'Resultado sumar: {resultado}')
 print(f'Resultado sumar: {sumar(45, 654)}')
 #uanque le hemos dicho el tipo de los parámetros no estamos obligados a cumplirlo.

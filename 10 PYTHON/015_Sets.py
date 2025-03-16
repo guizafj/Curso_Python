@@ -115,9 +115,9 @@ print(miSet)
 
 miSet = {"manzana", "banana", "cereza"}
 
-del miSet
+# del miSet En esta linea usando del se elimina el diccionario
 
-print(miSet)
+print(f"{miSet}")
 
 #   Unión de conjuntos
 #   El método union() devuelve un nuevo conjunto con todos los elementos de ambos conjuntos:
