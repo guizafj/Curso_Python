@@ -1,3 +1,5 @@
+import time
+
 """ 
     La clasificación es una de las funciones más utilizadas en programación. Y si no usamos el
     algoritmo correcto llevará tiempo extra completar la clasificación.
@@ -38,3 +40,10 @@ if __name__ == "__main__":
     insertion_sort(arr, len(arr))
 
     print(f"Lista ordeana: {arr}")
+
+    # Medir el tiempo de ejecucion
+start_time = time.time()
+insertion_sort(arr, len(arr))
+end_time = time.time()
+
+print(f"Tiempo de ejecución Cálculo de la complejidad Algorítmica del Ejemplo: {end_time - start_time} segundos")

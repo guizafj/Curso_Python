@@ -66,7 +66,7 @@ def importar_lista(archivo):
 def buscar(lista, nombre_buscado):
     tamano_de_lista = len(lista) # haciendo uso de la función sorted se organiza la lista en orden alfabetico
     inicio = 0
-    fim=tamano_de_lista-1
+    fin=tamano_de_lista-1
     while inicio <= fin:
           medio=(inicio + fin)//2
     if lista[medio] == nombre_buscado:

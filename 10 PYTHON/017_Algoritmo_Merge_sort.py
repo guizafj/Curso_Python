@@ -1,3 +1,5 @@
+import time
+
 def merge(arr, left_index, mid_index, right_index):
     """
     Función para fusionar dos sub-matrices ordenadas.
@@ -85,3 +87,11 @@ if __name__ == "__main__":
     merge_sort(arr, 0, len(arr) - 1)
 
     print(f"Matriz ordenada: {arr}")
+
+
+    # Medir el tiempo de ejecucion
+start_time = time.time()
+merge_sort(arr, 0, len(arr) -1)
+end_time = time.time()
+
+print(f"Tiempo de ejecución Cálculo de la complejidad Algorítmica del Ejemplo: {end_time - start_time} segundos")
