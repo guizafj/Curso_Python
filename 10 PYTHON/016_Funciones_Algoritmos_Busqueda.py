@@ -40,6 +40,7 @@ def buscar(lista, nombre_buscado):
         if (lista[actual] == nombre_buscado):
             return actual
     return -1
+
 def main():
     lista_de_alumnos = sorted(importa_lista('../data/lista_aluno s'))
     posicion_del_alumno = busca(lista_de_alumnos, "Wanessa")
