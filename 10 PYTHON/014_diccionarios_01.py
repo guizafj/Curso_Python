@@ -50,3 +50,65 @@ if guardar == "si": #Metodo usado para guardar un archivo tipo diccionario
     print("diccionario guardado con exito")
 else: 
     document_number = input("introduce tu documento de identidad: ")
+
+# Ingreso de datos por consola para asginarlos a un diccionario
+
+nombre_usu = input("Introduce tu nombre: ")
+apellido_usu = input("introduce tu apellido: ")
+pais_usu = input("Cual es tu pais: ")
+ciudad_usu = input("Ingresa tu ciudad: ")
+
+# Creación de un diccionario
+dic_01 = {
+    "Nombre": nombre_usu,
+    "Apellido": apellido_usu,
+    "Pais":pais_usu,
+    "Ciudad": ciudad_usu
+}
+print(dic_01)
+
+# Otra forma de definir diccionarios con la funcion dict()
+dic_02 = dict(
+    Nombre="Santiago",
+    Apellido="Hernandez",
+    Pais="España",
+    Ciudad="Madrid"
+)
+print(dic_02)
+
+dic_03 = dic_02.copy()
+print(dic_03)
+
+dic_03.clear()
+print(f"Este diccionario esta vacio: {dic_03}")
+
+# Los metodos que se usan en el diccionario estan especificados en el archivo de estuctura de datos
+
+# Devuelve un diccionario con las claves y valores especificados
+print(f"muestra los apellidos: {dic_01.fromkeys("Apellido")}")
+
+# Devuelve el valor de una clave
+print(f"muestra el nombre contenido en el diccionario: {dic_01.get("Nombre")}")
+
+# Devuelve una lista que contiene una tupla por cada par clave-valor
+print(f"mostrar el diccionario como tupla: {dic_01.items()}")
+
+# Devuelve una lista que contiene las claves del diccionario
+print(f"Muestra una lista que contiene el diccionario: {dic_01.keys()}")
+
+# Borra el elemento con la clave especificada
+dic_01.pop("Apellido")
+print(dic_01)
+
+# Borra el último par clave-valor insertado
+dic_02.popitem()
+print(dic_02)
+
+# Devuelve el valor de la clave especificada. Si no existe, inserta la clave con el valor especificado.
+print(f"muestra el valor de nombre: {dic_02.setdefault("Apellido")}")
+
+# Actualiza el diccionario con el par clave-valor que se especifique
+dic_01.update(Apellido = "Diaz")
+
+# Devuelve una lista con los valores del diccionario
+print(f"Muestra el diccionario: {dic_01.values()}")

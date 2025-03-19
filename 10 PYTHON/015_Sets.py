@@ -4,10 +4,10 @@
 #   SETs, conjuntos
 
 """
-Un conjunto es una colección de elementos únicos que no está ordenada ni indexada, 
-por lo que no puede estar seguro de en qué orden aparecerán los elementos. 
-En Python, los conjuntos se escriben entre llaves.
-Una vez que se crea un conjunto, no puede cambiar sus elementos, pero puede agregar nuevos elementos.
+  Un conjunto es una colección de elementos únicos que no está ordenada ni indexada, 
+  por lo que no puede estar seguro de en qué orden aparecerán los elementos. 
+  En Python, los conjuntos se escriben entre llaves.
+  Una vez que se crea un conjunto, no puede cambiar sus elementos, pero puede agregar nuevos elementos.
 """
 
 #   Declaración:
