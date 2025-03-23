@@ -1,4 +1,4 @@
-from array import array
+
 import pickle
 # Busqueda lineal
 
@@ -43,7 +43,7 @@ def buscar(lista, nombre_buscado):
 
 def main():
     lista_de_alumnos = sorted(importa_lista('../data/lista_aluno s'))
-    posicion_del_alumno = busca(lista_de_alumnos, "Wanessa")
+    posicion_del_alumno = buscar(lista_de_alumnos, "Wanessa")
     print("Alumno(a) {} está en la posicion {}".format(lista_de_alumnos[posicion_del_alumno], posicion_del_alumno))
 
 if __name__ == "__main__":
@@ -57,7 +57,7 @@ if __name__ == "__main__":
 
 def importar_lista(archivo):
     lista = []
-    with open(arquivo) as tf:
+    with open(archivo) as tf:
         lines = tf.read().split('","')
     for line in lines:
             lista.append(line)

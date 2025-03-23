@@ -10,7 +10,7 @@ class Persona():
     
 
     def descripcion(self):
-        print("El nombre es ", self.nombre, ", tiene ", self.edad, " anyos", " y es de ", self.lugar)
+        print(f"El nombre es: {self.nombre}  tiene  {self.edad} años  y es de  {self.lugar}")
     
 
     # Para personalizar el constructor del padre de acuerdo a las necesidades del hijo se usa super():
@@ -22,8 +22,8 @@ class Empleado(Persona):
         self.antiguedad=antiguedad
         
     def descripcion(self):
-        super().descripcion()
-        print("Salario: ", self.salario, ", antiguedad: ", self.antiguedad)
+        super().descripcion() # usando super() se pueden heredar metodos
+        print(f"Salario:  {self.salario} antiguedad: {self.antiguedad}")
         
 Angel=Persona("Angel", 43, "Malaga")
 Angel.descripcion()
@@ -31,3 +31,9 @@ Angel.descripcion()
 Empleado1=Empleado(2000, 2017, "Manolo", 33, "Madrid")
 Empleado1.descripcion()
 
+usuario = Persona(nombre = input("ingresa tu nombre: "), edad = input("Ingresa tu edad: "), lugar= input("Ingresa tu ubicacion: "))
+
+usuario2 = Empleado(salario = input("ingresa tu salario: "), antiguedad = input("Desde cuando trabajas aqui: "))
+
+usuario.descripcion()
+usuario2.descripcion()

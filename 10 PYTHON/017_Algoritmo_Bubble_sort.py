@@ -1,7 +1,8 @@
 import time
+
 """ 
-La clasificación de burbujas es un algoritmo simple. Intercambia los elementos adyacentes en cada
-iteración repetidamente hasta que se ordena la matriz dada.
+    La clasificación de burbujas es un algoritmo simple. Intercambia los elementos adyacentes en cada
+    iteración repetidamente hasta que se ordena la matriz dada.
 """
 
 def bublle_sort(arr, n):
@@ -22,7 +23,7 @@ if __name__ == "__main__":
     print(f"Lista ordenada: {arr}")
 
 
-    # Medir el tiempo de ejecucion
+# Medir el tiempo de ejecucion
 start_time = time.time()
 bublle_sort(arr, len(arr))
 end_time = time.time()

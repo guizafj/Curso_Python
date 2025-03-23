@@ -1,6 +1,10 @@
 # POO
 
 # CREACIÓN DE UNA CLASE
+""" 
+    Los atributos siempre se declaran privados, por seguridad y funcionalidad, por norma general cada atributo debe tener un getter y un setter 
+    los metodos y funciones publicas
+"""
 
 
 class Coche:
@@ -18,7 +22,7 @@ class Coche:
         self.is_enMarcha = True  # Es como si pusiésemos miCoche.is_enMarcha = True
 
     def estado(self):
-        if (self.is_enMarcha == True):
+        if self.is_enMarcha:
             return "El coche está arrancado"
         else:
             return "El coche está parado"

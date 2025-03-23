@@ -1,6 +1,15 @@
 # POO
 
 # CREACIÓN DE UNA CLASE
+""" 
+    Los atributos siempre se declaran privados, por seguridad y funcionalidad, por norma general cada atributo debe tener un getter y un setter 
+    los metodos y funciones publicas
+"""
+
+""" 
+    Un decorador es una función que se le añade a otra función, se crea una función inicial dentro de la clase
+    y luego se le realiza la llamada  
+"""
 
 class Persona:
     def __init__(self, nombre, apellido, edad):
@@ -22,7 +31,6 @@ class Persona:
         print(f'Persona: {self._nombre} {self.apellido} {self.edad}')
 
     #Sin decoradores
-
 
     #def mostrar_detalle(self):
     #    print(f'Persona: {self.nombre()} {self.apellido} {self.edad}')

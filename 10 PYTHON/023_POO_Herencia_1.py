@@ -6,8 +6,8 @@ class Persona:
         self.edad = edad
 
 
-# Definición de la clase hija que hereda de la clase padre.
-class Empleado(Persona):
+# Definición de la clase hija que hereda de la clase padre. 
+class Empleado(Persona): # la herencia  se hace efectiva poniendo por parametro en la clase hijo la calse padre
     def __init__(self, nombre, edad, sueldo):
         super().__init__(nombre, edad) #Nos permite acceder a los métodos del padre
         self.sueldo = sueldo

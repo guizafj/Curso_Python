@@ -1,35 +1,35 @@
 class Persona:
     def __init__(self, nombre, apellido, edad):
-        self._nombre = nombre
-        self._apellido = apellido
-        self._edad = edad
+        self.__nombre = nombre
+        self.__apellido = apellido
+        self.__edad = edad
 
     @property
     def nombre(self):
-        return self._nombre
+        return self.__nombre
 
     @nombre.setter
     def nombre(self, nombre):
-        self._nombre = nombre
+        self.__nombre = nombre
 
     @property
     def apellido(self):
-        return self._apellido
+        return self.__apellido
 
     @apellido.setter
     def apellido(self, apellido):
-        self._apellido = apellido
+        self.__apellido = apellido
 
     @property
     def edad(self):
-        return self._edad
+        return self.__edad
 
     @edad.setter
     def edad(self, edad):
-        self._edad = edad
+        self.__edad = edad
 
     def mostrar_detalle(self):
-        print(f'Persona: {self._nombre} {self._apellido} {self._edad}')
+        print(f'Persona: {self.__nombre} {self.__apellido} {self.__edad}')
 
 
 persona1 = Persona('Juan', 'Perez', 28)
