@@ -21,6 +21,7 @@ class Zapatilla:
             self.__color = nuevo_color
         else:
             print("Color no válido. Por favor, elija entre 'blanco', 'negro' o 'rojo'.")
+            
 
 # Crear una instancia de Zapatilla con un color inicial válido
 mi_zapatilla = Zapatilla("blanco")

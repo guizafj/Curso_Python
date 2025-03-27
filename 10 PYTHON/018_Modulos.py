@@ -2,9 +2,9 @@
 # Módulos
 
 """
-Para llamar a una función que tengamos en un módulo tenemos que importarla y luego 
-usar la nomenclatura del punto:
-Suponiendo que en un módulo funciones.py tenemos la siguiente función suma:
+    Para llamar a una función que tengamos en un módulo tenemos que importarla y luego 
+    usar la nomenclatura del punto:
+        Suponiendo que en un módulo funciones.py tenemos la siguiente función suma:
 """
 def suma(num1, num2):
     print("suma= ", num1+num2)

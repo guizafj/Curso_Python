@@ -42,9 +42,10 @@ miCoche2 = Coche()
 print("El largo del coche es de" , miCoche.largo, "cm.")
 miCoche.arrancar()
 print(miCoche.estado())
-print(miCoche.color)
+print(miCoche.color) # Cuanndo se accede a un atributo se diferencia porque no lleva () en el llamado
 miCoche2.cambiar_color()
 print(f"El color del coche 2 es: {miCoche2.color}") 
+
 # Acceso a un método de la clase Coche. Nomenclatura del punto.
 print("El coche está arrancado:" , miCoche.arrancar()) 
 print(f"El coche 1: {miCoche.estado()}")

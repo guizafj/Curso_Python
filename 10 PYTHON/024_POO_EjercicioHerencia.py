@@ -46,12 +46,12 @@ class Bicicleta(Vehiculo):
 
 # Creamos un objeto de la clase Vehiculo
 vehiculo = Vehiculo('Rojo', 4)
-print(vehiculo)
+print(f"el vehiculo tiene:  {vehiculo}")
 
 # Creamos un objeto de la clase hija Coche
 coche = Coche('Azul', 4, 150)
-print(coche)
+print(f"El coche tiene: {coche}")
 
 # Creamos un objeto de la clase hija Bicicleta
 bicicleta = Bicicleta('Blanca', 2, 'Urbano')
-print(bicicleta)
+print(f"La bicicleta tiene: {bicicleta}")

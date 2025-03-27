@@ -11,6 +11,10 @@ class CuentaBancaria:
     def saldo(self):
         return self.__saldo
     
+    @property
+    def titular(self):
+        return self.__titular
+
     @saldo.setter
     def saldo(self, monto):
         if monto >= 0:

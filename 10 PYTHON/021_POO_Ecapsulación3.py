@@ -17,12 +17,12 @@ class Persona:
         self.apellido = apellido
         self.edad = edad
 
-    @property
+    @property # Metodo getter
     def nombre(self):
         print('Llamando método get nombre')
         return self._nombre
 
-    @nombre.setter
+    @nombre.setter # Metodo setter
     def nombre(self, nombre):
         print('Llamando método set nombre')
         self._nombre = nombre

@@ -6,8 +6,7 @@
 # CREACIÓN DE UNA CLASE
 """ 
     Los atributos siempre se declaran privados, por seguridad y funcionalidad, por norma general cada atributo debe tener un getter y un setter 
-    los metodos y funciones publicas
-    con getter 
+        los metodos y funciones publicas con getter 
 """
 
 
@@ -32,14 +31,17 @@ class Coche():
         else:
             return "El coche está parado"    
  
-    
+    @property
     def color(self):
         return self.__color
 
-    @property
-    def cambiar_color(self, color_nuevo):        
-        self.__color = color_nuevo
-        print("se ha cambiado el color!")
+    @color.setter
+    def color(self):   
+        if self.__color:
+            color_nuevo = input("ingresa el nuevo color: ")
+            self.__color = color_nuevo
+            print("se ha cambiado el color!")
+            return
         
                 
     def ver_peso(self):
@@ -56,8 +58,8 @@ class Coche():
 miCoche = Coche()
 
 miCoche.ver_ancho()
-miCoche.cambiar_color
+print(f"el color de coche es {miCoche.color}")
 miCoche.ver_largo()
 miCoche.ver_peso()
-miCoche.cambiar_color = input("Indica el color deseado: ")
-miCoche.cambiar_color
+miCoche.color
+print(f"El nuevo color es: {miCoche.color}")

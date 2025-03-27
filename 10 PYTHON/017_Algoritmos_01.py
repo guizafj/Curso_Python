@@ -43,7 +43,7 @@ def codigo_4(array):
 
 def constante():
     x=50
-    ++x
+    + x
     return x
 
 # Lineal O(x) / El tiempo crece linealmente mientras crece los datos
@@ -51,7 +51,7 @@ def constante():
 def lineal(number):
     result = 0
     for x in range(0, number):
-        ++result
+        +result
 
     return result    
 
